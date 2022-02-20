@@ -8,8 +8,6 @@ Coming Qiuckly is a ReactJS Application to notify audience or show public that t
 - [x] Google Analytics to monitor visitor
 - [x] Amazing Background
 - [ ] Get Email Notification of Subscriber
-- [ ] Dark/Light Mode
-- [ ] Customizable
 
 ## Demo
 
