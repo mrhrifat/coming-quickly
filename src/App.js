@@ -1,11 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import Root from './Root'
 
 function App() {
   return (
-    <div>
-     <h4>Hello</h4>
-    </div>
+    <Root/>
   );
 }
 
