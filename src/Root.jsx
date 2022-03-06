@@ -1,11 +1,14 @@
 import React from 'react'
+import Content from './components/Content'
 import ParticlesBG from './components/ParticlesBG'
-import classes from './styles/App.css'
+import Glow from './components/Glow'
 
 const Root = () => {
     return (
         <>
             <ParticlesBG />
+            <Glow />
+            <Content />
         </>
     )
 }
