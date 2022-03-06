@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {ParticlesBG,Glow,Content} from './components/'
 
 const Root = () => {
     return (
