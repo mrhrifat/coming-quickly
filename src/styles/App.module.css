@@ -1,0 +1,130 @@
+.contentContainer {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #04133b;
+  z-index: 0;
+}
+
+.contentContainer .content {
+  color: #fff;
+  z-index: 1;
+  text-align: center;
+  width: 40%;
+}
+
+.contentContainer .content .logo div img {
+  width: 40px;
+  height: 40px;
+}
+
+.contentContainer .content .logo div h5 {
+  margin: 10px 0;
+}
+
+.contentContainer .content .header {
+  padding: 20px 0;
+}
+
+.contentContainer .content .header .title {
+  background-color: #182058;
+  padding: 10px 0;
+  border-radius: 25px;
+}
+
+.contentContainer .content .header .title p {
+  font-size: 15px;
+  margin: 0;
+}
+
+.contentContainer .content .header .message {
+  padding: 25px 0;
+}
+
+.contentContainer .content .header .message p {
+  color: #5A7FB4;
+  margin: 10px 0;
+}
+
+.contentContainer .content .subscribe input:focus, .contentContainer .content .subscribe input:hover,
+.contentContainer .content .subscribe button:focus,
+.contentContainer .content .subscribe button:hover {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.contentContainer .content .subscribe button {
+  color: #5A7FB4;
+}
+
+.contentContainer .content .subscribe button:hover {
+  background-color: #182058;
+  border-color: #182058;
+  -webkit-box-shadow: rgba(82, 104, 219, 0.57) 0px 12px 24px -10px;
+          box-shadow: rgba(82, 104, 219, 0.57) 0px 12px 24px -10px;
+}
+
+.contentContainer .content .footer .social {
+  border-radius: 50%;
+  background-color: rgba(239, 245, 249, 0.1);
+  width: 46px;
+  height: 46px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.contentContainer .content .footer .social:hover {
+  background-color: rgba(239, 245, 249, 0.25);
+}
+
+.contentContainer .content .footer .social a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.contentContainer .content .footer .copyright small {
+  color: #5A7FB4;
+}
+
+.glow {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  opacity: 0.16;
+  left: -100px;
+  top: -100px;
+  background: radial-gradient(circle closest-side, #6d8cf3, #03103b);
+}
+
+@media (max-width: 912px) {
+  .content {
+    width: 75% !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .glow {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=App.module.css.map */
