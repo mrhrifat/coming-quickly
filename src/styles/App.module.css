@@ -10,6 +10,7 @@
   width: 100%;
   background-color: #04133b;
   z-index: 0;
+  margin: 0;
 }
 
 .contentContainer .content {
